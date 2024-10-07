@@ -18,8 +18,8 @@
         <Image x:Name="Geel" Grid.ColumnSpan="2" Margin="243,84,388,238" Source="/Assets/Geel.png" Stretch="Fill" MouseEnter="Geel_MouseEnter" MouseLeave="Geel_MouseLeave" MouseDown="Geel_MouseDown"/>
         <Image x:Name="Groen" Grid.ColumnSpan="2" Margin="25,217,605,105" Source="/Assets/Groen.png" Stretch="Fill" MouseEnter="Groen_MouseEnter" MouseLeave="Groen_MouseLeave" MouseDown="Groen_MouseDown"/>
         <Image x:Name="Blauw" Grid.ColumnSpan="2" Margin="243,217,388,105" Source="/Assets/Blauw.png" Stretch="Fill" MouseEnter="Blauw_MouseEnter" MouseLeave="Blauw_MouseLeave" MouseDown="Blauw_MouseDown"/>
-        <TextBox x:Name="Kleurcode" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="580,140,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="601,232,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Kleurcode" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="580,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Informatie" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="580,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
 
     </Grid>
 </Window>
