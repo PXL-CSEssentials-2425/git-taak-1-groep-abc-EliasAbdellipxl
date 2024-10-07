@@ -60,5 +60,25 @@ namespace Kleurenpsychologie
         {
             main.Background = new SolidColorBrush (Colors.LightGray);
         }
+
+        private void Rood_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Kleurcode.Text = "Rood: #FF0000";
+        }
+
+        private void Geel_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Kleurcode.Text = "Geel: #FFFF00";
+        }
+
+        private void Groen_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Kleurcode.Text = "Groen: #008000";
+        }
+
+        private void Blauw_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Kleurcode.Text = "Blauw: #0000FF";
+        }
     }
 }
